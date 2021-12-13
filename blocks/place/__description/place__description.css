@@ -7,3 +7,10 @@
       margin: 0;
     }
   }
+
+  @media screen and (max-width: 320px) {
+    .place__description {
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+  }
