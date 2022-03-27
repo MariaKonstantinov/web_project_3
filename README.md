@@ -20,7 +20,7 @@ HTML5, CSS, Flat BEM methodology, Flexbox, Grid Layout, Media Queries.
   
 **Project Link** 
 
-* [Link to the project]
+* [Link to the project](https://mariakonstantinov.github.io/web_project_3/)
 
   
  
