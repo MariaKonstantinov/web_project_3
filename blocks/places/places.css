@@ -1,0 +1,31 @@
+.places {
+  box-sizing: border-box;
+  margin: 92px calc((100% - 984px) / 2);
+}
+
+.places__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*Media Queries for tablet 768*/
+@media screen and (max-width: 1100px) {
+  .places {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    margin-top: 88px;
+  }
+}
+
+/*Media Queries for mobile 320*/
+@media screen and (max-width: 320px) {
+  .places {
+    margin: 62px 0 0;
+  }
+}

@@ -1,0 +1,98 @@
+.cover {
+  min-height: 740px;
+  max-width: 1184px;
+  margin: 92px auto 0;
+  background: url("../../images/photo-grid-field.jpg") no-repeat center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.cover:hover .cover__overlay {
+  opacity: 0.8;
+}
+
+.cover__title {
+  margin: 0 0 32px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  color: #fffdfd;
+  z-index: 1;
+}
+
+.cover__subtitle {
+  margin: 0;
+  max-width: 280px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  z-index: 1;
+}
+
+.cover__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  transition: opacity 1s;
+}
+
+/*Media Queries for tablet 768*/
+@media screen and (max-width: 768px) {
+  .cover {
+    min-height: 746px;
+  }
+}
+
+/*Media Queries for mobile 320*/
+@media screen and (max-width: 560px) {
+  .cover {
+    min-height: 254px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    background-size: cover;
+    margin-top: 64px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .cover__title {
+    margin-bottom: 24px;
+    font-size: 52px;
+    line-height: 1.07;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .cover__subtitle {
+    font-size: 16px;
+    line-height: 1.18;
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 1.14;
+    max-width: 220px;
+  }
+}

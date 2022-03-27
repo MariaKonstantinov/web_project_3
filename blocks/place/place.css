@@ -1,0 +1,141 @@
+.place {
+  box-sizing: border-box;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: min-content min-content 1fr;
+  gap: 48px 40px;
+
+  grid-template-areas:
+    "title artist"
+    "media description"
+    "link description";
+}
+
+.place__title {
+  max-width: 460px;
+  margin: 0;
+  grid-area: title;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+}
+
+.place__artist {
+  grid-area: artist;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.place__person-role {
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.12em;
+  margin-bottom: 8px;
+}
+
+.place__person-info {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.place__media {
+  grid-area: media;
+  max-width: 460px;
+}
+
+.place__image {
+  max-width: 100%;
+}
+
+.place__description {
+  grid-area: description;
+}
+
+.place__paragraph {
+  margin: 25px 0 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+}
+
+.place__paragraph:first-of-type {
+  margin: 0;
+}
+
+/*Media Queries for tablet 768*/
+@media screen and (max-width: 768px) {
+  .place {
+    margin-top: 72px;
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__media {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+/*Media Queries for mobile 320*/
+@media screen and (max-width: 560px) {
+  .place {
+    gap: 30px 0;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 1.09;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__artist {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__media {
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .place__description {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__description {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

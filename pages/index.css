@@ -1,0 +1,33 @@
+/* Normalize & Fonts */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter/inter.css);
+
+/*Block - Root*/
+@import url(../blocks/root/root.css);
+
+/*Block - Logo*/
+@import url(../blocks/logo/logo.css);
+
+/*Block - Lead*/
+@import url(../blocks/lead/lead.css);
+
+/*Block - Intro*/
+@import url(../blocks/intro/intro.css);
+
+/*Block - Photo-Grid*/
+@import url(../blocks/photo-grid/photo-grid.css);
+
+/*Block - Places*/
+@import url(../blocks/places/places.css);
+
+/*Block - Place*/
+@import url(../blocks/place/place.css);
+
+/*Block - Buy-Button*/
+@import url(../blocks/buy-button/buy-button.css);
+
+/*Block - Cover*/
+@import url(../blocks/cover/cover.css);
+
+/*Block - Footer*/
+@import url(../blocks/footer/footer.css);
