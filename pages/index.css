@@ -3,31 +3,31 @@
 @import url(../vendor/fonts/inter/inter.css);
 
 /*Block - Root*/
-@import url(../blocks/root/root.css);
+@import url(../blocks/root.css);
 
 /*Block - Logo*/
-@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo.css);
 
 /*Block - Lead*/
-@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead.css);
 
 /*Block - Intro*/
-@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro.css);
 
 /*Block - Photo-Grid*/
-@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid.css);
 
 /*Block - Places*/
-@import url(../blocks/places/places.css);
+@import url(../blocks/places.css);
 
 /*Block - Place*/
-@import url(../blocks/place/place.css);
+@import url(../blocks/place.css);
 
 /*Block - Buy-Button*/
-@import url(../blocks/buy-button/buy-button.css);
+@import url(../blocks/buy-button.css);
 
 /*Block - Cover*/
-@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover.css);
 
 /*Block - Footer*/
-@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer.css);
