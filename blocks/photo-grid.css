@@ -31,14 +31,14 @@
 }
 
 /*Media Queries for mobile 320*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .photo-grid {
     margin-left: 16px;
     margin-right: 16px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .photo-grid__list {
     grid-template-columns: 1fr;
     gap: 12px;
