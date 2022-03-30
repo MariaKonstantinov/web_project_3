@@ -36,12 +36,15 @@
   line-height: 1.25;
   letter-spacing: 0.12em;
   margin-bottom: 8px;
+  margin-top: 0;
 }
 
 .place__person-info {
   font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .place__media {
